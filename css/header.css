@@ -1,0 +1,186 @@
+@media only screen and (min-width: 995px) {
+    .container-header{
+        height: 75px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+#send-feedback{
+    font-family: 'Montserrat', sans-serif!important;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px 0;
+    color: #24578F;
+    transition: .7s;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 129.4%;
+}
+
+@media only screen and (max-width: 420px) {
+    .footer #send-feedback{
+        margin-right: 23%!important;
+    }
+}
+#send-feedback:hover {
+    font-family: 'Montserrat', sans-serif!important;
+    color: #24578F;
+    border: 2px solid #24578F;
+    box-sizing: border-box;
+    border-radius: 10px 0;
+    transition: 0.3s;
+    animation: 5s button-hover infinite ease;
+}
+
+.main-header{
+    background-color: #ffffff;
+    border-bottom: 1px solid #7d7d7d;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center;
+    /*box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);*/
+}
+.list-menu{
+    height: 100%;
+    width: 33%;
+    margin-left: 7%;
+    flex-grow: 0!important;
+}
+.child-list-menu{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between!important;
+    align-items: center;
+}
+.child-list-menu a{
+    font-family: 'Montserrat', sans-serif!important;
+    font-style: normal!important;
+    font-weight: 600!important;
+    font-size: 15px!important;
+    line-height: 129.4%!important;
+    color: #24578F!important;
+    text-decoration: none!important;
+    transition: 0.3s!important;
+    margin: 0!important;
+}
+.nav-item:hover{
+    color: #24578F!important;
+    
+    box-sizing: border-box!important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 10px 0!important;
+    transition: 0.3s!important;
+    /* animation: 5s button-hover infinite ease; */
+    background-color: #24578F;
+    color: #ffffff!important;
+}
+/*.nav-item .active{*/
+/*    color: #24578F!important;*/
+/*    border: 2px solid #24578F!important;*/
+/*    box-sizing: border-box!important;*/
+/*    border-radius: 10px 0!important;*/
+/*}*/
+.nav-item:focus{
+    color: #24578F!important;
+    border: 2px solid #24578F!important;
+    box-sizing: border-box!important;
+    border-radius: 10px 0!important;
+}
+
+.btn-secondary{
+    font-family: 'Montserrat', sans-serif!important;
+    border: none !important;
+    box-sizing: border-box;
+    border-radius: 10px 0;
+    color: #24578F !important;
+    transition: .7s;
+    background-color: #ffffff !important;
+    font-weight: bold !important;
+    font-size: 16px;
+    line-height: 129.4%;
+}
+.btn-secondary{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.dropdown {
+    transition: .7s all;
+}
+.dropdown:hover{
+    
+    background-color: #24578F!important;
+    color: #ffffff!important;
+}
+.dropdown-menu a{
+    font-size: 14px !important;
+    font-weight: normal !important;
+    transition: .7s!important;
+    padding-bottom: 2px;
+}
+.dropdown-item:hover{
+    transition: .7s;
+    font-size: 14px !important;
+    background-color: #24578F!important;
+    /*border-bottom: 2px solid #24578F !important;*/
+    font-weight: bold !important;
+    color: #FFFFFF!important;
+}
+.dropdown-item:active{
+    background-color: #ffffff !important;
+    /*font-weight: bold !important;*/
+}
+
+.select-lng{
+    padding: 5px;
+    border: 2px solid #24578F;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #24578F;
+}
+.select-lng:focus{
+    border: 2px solid #24578F;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1466px) {
+    .list-menu{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 996px) {
+    .main-header{
+        justify-content: space-between!important;
+    }
+}
+@media only screen and (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse{
+        width: 66%!important;
+    }
+
+}
+@media only screen and (max-width: 991px) {
+    .dropButt{
+        width: 100% !important;
+        border: none!important;
+    }
+    .btn-secondary.dropdown-toggle.btn{
+        width: 100% !important;
+        padding-left: 2%;
+    }
+}
+@media only screen and (min-width: 1360px){
+    .navbar-expand-lg .navbar-collapse{
+        width: 50%!important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .navbar-brand{
+        width: 70%;
+    }
+}

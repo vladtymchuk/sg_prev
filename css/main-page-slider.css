@@ -1,0 +1,225 @@
+.slider-back{
+    background-image: url("../img/program-background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.slider-container{
+    height: 450px;
+}
+
+.slider-item{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.carousel, .carousel-inner, .carousel-item{
+    height: 100%;
+}
+
+/*slider items*/
+
+.slider-img{
+    /*height: 60%;*/
+    /*width: 35%;*/
+
+    /*border: 2px solid #000000;*/
+    margin-left: 15%;
+}
+.slider-img img{
+    height: 100%;
+    width: auto;
+    cursor: auto;
+}
+.artichles-slider{
+    height: 70%;
+    width: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.artichles-slider .text{
+    height: 80%!important;
+    width: 100% !important;
+}
+.artichles-slider .text .title-text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 128%;
+
+    color: #24578F;
+}
+
+.artichles-slider .text .title-description{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 128%;
+
+    color: #24578F;
+}
+.artichles-slider .text .decription{
+    /*width: 68%;*/
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    /*font-weight: 300;*/
+    font-size: 18px;
+    line-height: 144.9%;
+
+    letter-spacing: 0.035em;
+
+    color: #000000;
+
+    /*margin-top: 6%!important;*/
+}
+.artichles-slider .button-more{
+    height: 18%;
+    width: 100%;
+}
+.button-more .button{
+    height: 70%;
+    width: 35%;
+
+    border: 2px solid #24578F;
+    box-sizing: border-box;
+    border-radius: 10px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #24578F;
+    transition: .7s;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+
+    color: #EAF2F9;
+}
+.button-more .button:hover{
+    background-color: #257ab4;
+    transition: .7s;
+    border: 1px solid #257ab4;
+    font-weight: 600;
+    animation: 5s button-hover infinite ease;
+}
+.button p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #EAF2F9;
+}
+.carousel-indicators li{
+    background-color: #C4C4C4 !important;
+}
+
+.carousel-indicators li.active {
+    background-color: #24578F !important;
+}
+
+.erp-systems{
+    font-size: 28px!important;
+}
+.code-lang{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 129.4%;
+
+    color: #24578F;
+}
+.button-more .button a{
+    color: #FFFFFF;
+}
+/*media requests*/
+@media only screen and (max-width: 1200px) {
+    .slider-container{
+        height: 600px;
+    }
+    .slider-img{
+        height: 47%;
+    }
+    .artichles-slider{
+        height: 58%;
+    }
+}
+@media only screen and (max-width: 1185px) {
+    .slider-container{
+        height: 600px;
+    }
+    .slider-img{
+        height: 47%;
+        width: 40%;
+    }
+    .artichles-slider{
+        height: 70%;
+    }
+}
+@media only screen and (max-width: 993px) {
+    .slider-container{
+        max-width: 100%!important;
+    }
+}
+@media only screen and (max-width: 921px) {
+    .artichles-slider{
+        height: 50%;
+    }
+    .artichles-slider .text .title-text{
+        font-size: 32px;
+    }
+    .artichles-slider .text .title-description{
+        font-size: 28px;
+    }
+    .artichles-slider .text .decription{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 812px) {
+    .slider-item{
+        justify-content: space-between!important;
+    }
+    .slider-container{
+        padding: 0!important;
+    }
+    .slider-img{
+        width: 50%;
+        margin-left: 5%;
+    }
+    .artichles-slider{
+        margin-right: 5%;
+    }
+    .button-more .button{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 686px) {
+    .artichles-slider{
+        height: 50%;
+    }
+    .artichles-slider .text .title-text{
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .artichles-slider .text .title-description{
+        font-size: 24px;
+    }
+    .artichles-slider .text .decription{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .slider-back{
+        display: none;
+    }
+}

@@ -1,0 +1,117 @@
+/*google font Montserrat importing*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+    overflow-x: hidden !important
+}
+/*little fixing*/
+
+.container-fluid{
+    padding: 0!important;
+    background: linear-gradient(180deg, #EAF2F9 53.13%, rgba(234, 242, 249, 0) 90.62%);
+
+
+}
+
+p{
+    margin: 0!important;
+}
+
+.h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px !important;
+    line-height: 127.9%;
+    text-align: center;
+    color: #24578F;
+}
+
+/*убираем фокус*/
+.button:focus {
+    outline: none;
+}
+.button::-moz-focus-inner {
+    border: 0;
+}
+a:focus {
+    outline: none;
+}
+a::-moz-focus-inner {
+    border: 0;
+}
+/*убираем фокус*/
+img{
+    cursor: default;
+}
+.main-page{
+    background: linear-gradient(180deg, #EAF2F9 53.13%, rgba(234, 242, 249, 0) 90.62%)!important;
+}
+.clear{
+    margin: 10px 0 10px 0;
+    display: block;
+}
+
+.anchor-link{
+    color: #24578F;
+}
+
+
+.back-to-top {
+    position: fixed;
+    bottom: 80px;
+    /*bottom: 27%;*/
+    right: 75px;
+    z-index: 9999;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 30px;
+    /*background: #f5f5f5;*/
+    color: #444;
+    cursor: pointer;
+    border-radius: 50%;
+    display: none;
+    /*border-color: #24578F;*/
+}
+
+.back-to-top:hover {
+    /*background: #e9ebec;*/
+}
+
+.back-to-top-show {
+    display: block;
+}
+
+
+.to-top-btn{
+    /*border-color: #24578F;*/
+    border-radius: 50%;
+}
+.to-top-btn-first{
+    background-color: rgba(36, 87, 143, 0.4);
+}
+.to-top-btn-second{
+    background-color: rgba(36, 87, 143, 0.6);
+}
+.to-top-btn-third{
+    background-color: rgba(36, 87, 143, 0.8);
+}
+.to-top-btn-fourth{
+    background-color: rgba(64, 150, 242, 0.7);
+}
+
+@media only screen and (max-width: 1137px){
+    .back-to-top{
+        right: 25px;
+    }
+}
+@media only screen and (max-width: 1030px){
+    .back-to-top{
+        right: 5px;
+    }
+}
+@media only screen and (max-width: 1030px){
+    .back-to-top{
+        width: 25px;
+    }
+}

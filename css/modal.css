@@ -1,0 +1,155 @@
+.modal-content{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    height: 25%;
+}
+.feedback-inputs-2-modal{
+    height: 300px;
+}
+.feedback-loader-text{
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-inputs-2-modal{
+    width: 100%;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*padding-left: 25%;*/
+    /*align-items: center;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-modal{
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 2% 20%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px 0;
+    background-color: #24578F;
+    transition: .7s;
+    color: #ffffff;
+}
+
+.submit-modal:hover{
+    background-color: #257ab4;
+    transition: .7s;
+    border: 1px solid #257ab4;
+    color: #ffffff;
+}
+
+#fio-modal{
+    margin-top: 4%;
+}
+
+#message-modal{
+    width: 66%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #24578F;
+    margin-bottom: 10%;
+    resize: none;
+    padding-left: 2%;
+    margin-top: 2%;
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 1% !important;
+    padding-right: 1% !important;
+}
+
+/*убираем фокус*/
+.submit-modal:focus {
+    outline: none;
+}
+
+.submit-modal::-moz-focus-inner {
+    border: 0;
+}
+/*убираем фокус*/
+
+
+
+
+/**/
+.form {
+    display: inline-block;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.form-field {
+    margin-bottom: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #24578F;
+    box-sizing: border-box;
+    margin-bottom: 3% !important;
+    padding-left: 1%;
+    height: 35px;
+    width: 66%;
+}
+.form-field input{
+    width: 100%;
+    margin-bottom: 0 !important;
+}
+
+.form__error {
+    color: red;
+    text-align: left;
+    font-size: 12px;
+    display: block;
+    /*margin-top: 3px;*/
+    display: none;
+}
+
+.form input {
+    outline: none;
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0;
+    background-color: #ccc;
+    color: #fff;
+}
+
+input:valid:not(:placeholder-shown) {
+    /*border-color: green;*/
+}
+
+input:invalid:not(:placeholder-shown) {
+    /*border-color: red;*/
+}
+input:invalid:not(:placeholder-shown) + .form__error {
+    display: block;
+}
+
+
+
+
+
+

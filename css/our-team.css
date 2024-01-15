@@ -1,0 +1,131 @@
+.our-team{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.testimonial {
+    text-align: center;
+    padding-top: 5%;
+
+    /*border-radius: 5px;*/
+}
+.testimonial .pic {
+    /*border-radius: 50%;*/
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.testimonial .pic img {
+    width: 100%;
+    height: auto;
+}
+
+
+.testimonial .testimonial-title {
+    padding-top: 10px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+.post {
+    /*text-transform: uppercase;*/
+    color: #000000;
+}
+.pic img{
+    cursor: default !important;
+}
+.testimonial .post {
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+.testimonial .description {
+    font-size: 15px;
+    color: #24578F;
+    line-height: 1.8;
+    margin-top: 10px;
+}
+.owl-theme .owl-controls {
+    width: 100%;
+    position: absolute;
+    top: 22%;
+    color: #24578F;
+}
+.owl-theme .owl-controls .owl-buttons div {
+    font-size: 18px;
+    background: transparent;
+}
+.owl-theme .owl-prev {
+    position: relative;
+    left: -400px;
+}
+.owl-theme .owl-next {
+    position: relative;
+    right: -400px;
+}
+.owl-prev:before,
+.owl-next:before {
+    /* content: "\f177"; */
+    /* font-family: 'FontAwesome'; */
+    color: #24578F;
+    /*content: url("../img/left.png");*/
+    /*content: "<";*/
+    content: url('../img/left.png');
+    /* content: "fa fa-angle-right"; */
+    font-size: 25px;
+    height: 34px;
+    width: auto;
+    /*height: 40px;*/
+    /*width: auto;*/
+
+}
+.owl-next:before {
+    /* content: "\f178"; */
+    /*content: url("../img/left.png");*/
+    /*content: ">";*/
+    content: url('../img/right.png');
+    transform: rotate(-180deg);
+    font-size: 25px;
+}
+.owl-theme .owl-controls .owl-buttons div {
+    background: none !important;
+}
+@media only screen and (max-width: 480px) {
+    .testimonial {
+        padding: 40px 10%;
+    }
+    .owl-theme .owl-prev {
+        position: relative;
+        left: -115px;
+    }
+    .owl-theme .owl-next {
+        position: relative;
+        right: -115px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .owl-theme .owl-prev {
+        position: relative;
+        left: -115px;
+    }
+    .owl-theme .owl-next {
+        position: relative;
+        right: -115px;
+    }
+}
+
+.row{
+    justify-content: center;
+}
+
+.test{
+    background-color: red;
+}

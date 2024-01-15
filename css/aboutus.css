@@ -1,0 +1,148 @@
+.main-container-about-us{
+    height: 2000px;
+    /* width: 100%; */
+}
+.main-container-about-us .gallery{
+    display: flex;
+    flex-direction: column;
+}
+.container-about-us{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* Верхняя часть страницы Про нас */
+.header-about-us{
+    height: 10%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    padding-top: 30px;
+}
+.header-text-about-us{
+    height: 100%;
+    width: 60%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+}
+.image-header-about-us{
+    height: 80%;
+    width: auto;
+}
+.image-header-about-us img{
+    height: 100%;
+    width: 100%;
+}
+.title-about-us{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 129.4%;
+
+    text-transform: uppercase;
+
+    color: #24578F;
+    margin-bottom: 16px!important;
+}
+.about-us-header-description{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    /*font-weight: 300;*/
+    font-size: 24px;
+    line-height: 129.4%;
+
+    color: #000000;
+    /*margin-bottom: 10px!important;*/
+}
+.mini-text-description-about-us{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    /*font-weight: 300;*/
+    font-size: 18px;
+    line-height: 129.4%;
+
+    color: #000000;
+}
+.content-about-us{
+    width: 100%;
+    /*height: 35%;*/
+
+    /*margin-top: 40px!important;*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    /*border: 2px solid red;*/
+}
+.content-text-about-us {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    /*font-weight: 300;*/
+    font-size: 18px;
+    line-height: 129.4%;
+    text-align: justify;
+    color: black;
+}
+.predul-about-us{
+    margin-top: 30px!important;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    /*font-weight: 300;*/
+    font-size: 18px;
+    line-height: 129.4%;
+
+    color: #000000;
+}
+
+.content-about-us ul{
+    list-style-image: url("../img/services/Ellipse28.png");
+}
+.content-about-us ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    /*font-weight: 300;*/
+    font-size: 18px;
+    line-height: 129.4%;
+
+    color: #000000;
+
+    margin-top: 15px!important;
+}
+
+@media only screen and (max-width: 780px) {
+    .header-text-about-us{
+        width: 100%;
+    }
+    .image-header-about-us{
+        display: none;
+    }
+}
+@media only screen and (max-width: 549px){
+    .title-about-us{
+        font-size: 32px;
+    }
+    .about-us-header-description{
+        font-size: 22px;
+    }
+    .content-text-about-us,
+    .predul-about-us,
+    .content-about-us ul li {
+        font-size: 16px;
+    }
+}
+
+.first-line{
+    display: flex;
+}
+
+.image-header-about-us img{
+    cursor: default !important;
+}

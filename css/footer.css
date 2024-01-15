@@ -1,0 +1,120 @@
+.footer {
+    margin-top: 4%;
+}
+
+.h2-footer {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    padding-bottom: 8px;
+}
+
+.footer-description {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFCFC;
+    width: 80%;
+    padding-bottom: 8px;
+}
+
+.footer-left-side a:hover, .footer-right-side a:hover{
+    color: #ffffff !important;
+    text-decoration: none !important;
+}
+
+.footer-left-side i {
+    color: #ffffff;
+}
+
+.p-footer {
+    color: #ffffff;
+}
+
+.footer-ul-left li {
+    display: block;
+    width: 49%;
+    float: left;
+    height: 40px;
+}
+
+.footer-ul-right li {
+    display: block;
+    width: 49%;
+    float: left;
+    color: #ffffff;
+    height: 40px;
+}
+
+.footer-social-links{
+    color: #ffffff;
+    padding-right: 10%;
+}
+.footer-social-links:hover{
+    color: #ffffff;
+    padding-right: 10%;
+    text-decoration: none;
+}
+
+#footer-li-h2{
+    font-size: 24px;
+}
+
+.footer-img {
+    padding-left: 8%;
+}
+
+.footer-left-side p:hover {
+    cursor: auto !important;
+}
+
+@media only screen and (max-width: 1162px) {
+    .footer-right-side .submit {
+        width: 30% !important;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-left-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-left-side .footer-left-content {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .footer-right-side {
+        align-items: center;
+    }
+
+    .footer-information {
+        width: 70%;
+        display: flex;
+        flex-direction: column-reverse !important;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5px !important;
+        margin: 0 !important;
+    }
+}
+@media only screen and (max-width: 464px) {
+    .footer li{
+        font-size: 13px;
+    }
+}
